@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Open_Sans } from '@next/font/google'
 
 export default function Home() {
   return (
@@ -13,13 +12,31 @@ export default function Home() {
         <meta name='description' content='Project Bracket' />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={[styles.navbar, styles.container].join(" ")}>
-        <p className={styles.bracketTitle}>Bracket</p>
-        <ul>
-          <li className={styles.navLinks}><a href='#'>Our goal</a></li>
-          <li className={styles.navLinks}><a href='#'>About us</a></li>
-          <li className={[styles.navButton, styles.navLinks].join(" ")}><a href='#'>Contact us</a></li>
-        </ul>
+      <div className={styles.relativePos}>
+
+        <div className={[styles.navbar, styles.container].join(" ")}>
+          <p className={styles.bracketTitle}>Bracket</p>
+          <ul>
+            <li className={styles.navLinks}><a href='#'>Our goal</a></li>
+            <li className={styles.navLinks}><a href='#'>About us</a></li>
+            <li className={[styles.navButton, styles.navLinks].join(" ")}><a href='#'>Contact us</a></li>
+          </ul>
+        </div>
+        
+        <div className={[ styles.jumbotron].join(" ")}>
+          <div className={styles.slantedSquare} >
+            <p>Connecting in university will never be the same</p>
+          </div>
+          <div className={styles.slantedSquare2} />
+        </div>
+
+        <div className={[styles.mainBody, styles.container].join(" ")}>
+          <div className={styles.contentHeader}>
+            <p><span className={styles.bracketTitle}>Bracket</span><span className={styles.bracketSubtext}> for universities</span></p>
+            <p className={styles.jungeText}>Everything a student needs to unlock their potential</p>
+          </div>
+        </div>
+        
       </div>
     </div>
   )
