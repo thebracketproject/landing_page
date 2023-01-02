@@ -60,7 +60,7 @@
 
 .jumbotron {
   height: 110vh;
-  background-image: url('../public/assets/jumbotron.jpg');
+  background-image: url('/assets/jumbotron.jpg');
   background-size: cover;
   z-index: 0;
   display: flex;
