@@ -1,11 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Junge&family=Open+Sans:wght@700;800&display=swap');
+
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 0 6rem;
   min-height: 100vh;
 }
+
+/* CUSTOM STYLES */
+
+.bgColor {
+  background-color: #F5EBE0;
+}
+
+.navbar {
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F5EBE0;
+}
+
+.bracketTitle {
+  color: #8F5B3C;
+  font-weight: 800;
+  letter-spacing: -5%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  letter-spacing:  -0.05em;
+}
+
+.navLinks{
+  display: inline-block;
+  padding: 0 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  opacity: 0.5;
+}
+
+.navButton{
+  background-color: #8F5B3C;
+  border-radius: 50px;
+  color: #F5EBE0;
+  padding: 10px 20px;
+  opacity: 2;
+}
+
+.container {
+  padding: 0 5vw;
+}
+
+/* END OF CUSTOME STYLES */
 
 .description {
   display: inherit;
