@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Junge&family=Open+Sans:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Junge&family=Open+Sans:wght@400;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 
 .main {
@@ -33,7 +33,7 @@
 
 .bracketTitle {
   color: #8F5B3C;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: -5%;
   font-family: 'Open Sans', sans-serif;
   font-size: 32px;
@@ -59,7 +59,7 @@
 }
 
 .jumbotron {
-  height: 110vh;
+  height: calc(100vh + 5em);
   background-image: url('/assets/jumbotron.jpg');
   background-size: cover;
   z-index: 0;
@@ -102,7 +102,7 @@
 }
 
 .mainBody {
-  height: 60vh;
+  max-height: 60vh;
   width: 100vw;
   background-color: #F5EBE0;
   z-index: 1;
@@ -129,10 +129,33 @@
   font-family: 'Libre Baskerville', serif;
   color: black;
   font-size: 44px;
-  max-width: 40vw;
+  max-width: 45vw;
   margin: auto;
   padding-top: 0.4em;
   font-weight: 700;
+}
+
+.descText {
+  color: black;
+  max-width: 60vw;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 1.5em;
+  font-size: 20px;
+}
+
+.footer {
+  /* background-color: grey; */
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  color: #512A13;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  opacity: 0.5;
+  padding: 1em;
 }
 /* END OF CUSTOME STYLES */
 

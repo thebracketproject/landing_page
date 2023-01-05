@@ -25,7 +25,7 @@ export default function Home() {
         
         <div className={[ styles.jumbotron].join(" ")}>
           <div className={styles.slantedSquare} >
-            <p>Connecting in university will never be the same</p>
+            <p>Experience new ways to connect at university</p>
           </div>
           <div className={styles.slantedSquare2} />
         </div>
@@ -34,7 +34,12 @@ export default function Home() {
           <div className={styles.contentHeader}>
             <p><span className={styles.bracketTitle}>Bracket</span><span className={styles.bracketSubtext}> for universities</span></p>
             <p className={styles.jungeText}>Everything a student needs to unlock their potential</p>
+            <p className={styles.descText}>Connect with like-minded university students and build exclusive friend groups with Bracket, the social platform designed for you! Discover new opportunities and create meaningful connections based on your individual interests and personality.</p>
           </div>
+        </div>
+
+        <div className={styles.footer}>
+          <p>All rights reserved 	&copy; Ahmad Rafi</p>
         </div>
         
       </div>
