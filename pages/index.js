@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -17,8 +18,8 @@ export default function Home() {
         <div className={[styles.navbar, styles.container].join(" ")}>
           <p className={styles.bracketTitle}>Bracket</p>
           <ul>
-            <li className={styles.navLinks}><a href='#'>Our goal</a></li>
-            <li className={styles.navLinks}><a href='#'>About us</a></li>
+            <Link className={styles.navLinks} href='/comingSoon'>Our goal</Link>
+            <Link className={styles.navLinks} href='/comingSoon'>About us</Link>
             <li className={[styles.navButton, styles.navLinks].join(" ")}><a href='#'>Contact us</a></li>
           </ul>
         </div>
@@ -39,7 +40,7 @@ export default function Home() {
         </div>
 
         <div className={styles.footer}>
-          <p>All rights reserved 	&copy; Ahmad Rafi</p>
+          <p>&copy; 2023 Ahmad Rafi. All rights reserved.</p>
         </div>
         
       </div>

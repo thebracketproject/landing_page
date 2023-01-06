@@ -17,7 +17,6 @@
 
 .bgColor {
   background-color: #F5EBE0;
-  min-height: 150vh;
 }
 
 .navbar {
@@ -149,7 +148,7 @@
 
 .footer {
   /* background-color: grey; */
-  height: 30vh;
+  height: 20vh;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
