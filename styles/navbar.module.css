@@ -1,0 +1,49 @@
+.container {
+  padding: 0 5vw;
+}
+
+.navbar {
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F5EBE0;
+  z-index: 1;
+  position: fixed;
+}
+
+.bracketThe {
+  color: #512A13;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.bracketTitle {
+  color: #8F5B3C;
+  font-weight: 700;
+  letter-spacing: -5%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  letter-spacing:  -0.05em;
+}
+
+.navLinks{
+  display: inline-block;
+  padding: 0 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  opacity: 0.5;
+  letter-spacing: 0.05em;
+}
+
+.navButton{
+  background-color: #8F5B3C;
+  border-radius: 50px;
+  color: #F5EBE0;
+  padding: 10px 20px;
+  opacity: 2;
+}

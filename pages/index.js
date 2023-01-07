@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -14,15 +13,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.relativePos}>
-
-        <div className={[styles.navbar, styles.container].join(" ")}>
-          <p className={styles.bracketTitle}>Bracket</p>
-          <ul>
-            <Link className={styles.navLinks} href='/comingSoon'>Our goal</Link>
-            <Link className={styles.navLinks} href='/comingSoon'>About us</Link>
-            <li className={[styles.navButton, styles.navLinks].join(" ")}><a href='#'>Contact us</a></li>
-          </ul>
-        </div>
         
         <div className={[ styles.jumbotron].join(" ")}>
           <div className={styles.slantedSquare} >
@@ -33,14 +23,14 @@ export default function Home() {
 
         <div className={[styles.mainBody, styles.container].join(" ")}>
           <div className={styles.contentHeader}>
-            <p><span className={styles.bracketTitle}>Bracket</span><span className={styles.bracketSubtext}> for universities</span></p>
+            <p><span className={styles.bracketThe}>The </span><span className={styles.bracketTitle}>Bracket &nbsp;</span><span className={styles.bracketSubtext}> for universities</span></p>
             <p className={styles.jungeText}>Everything a student needs to unlock their potential</p>
             <p className={styles.descText}>Connect with like-minded university students and build exclusive friend groups with Bracket, the social platform designed for you! Discover new opportunities and create meaningful connections based on your individual interests and personality.</p>
           </div>
         </div>
 
         <div className={styles.footer}>
-          <p>&copy; 2023 Ahmad Rafi. All rights reserved.</p>
+          <p>&copy; 2023 The Bracket. All rights reserved.</p>
         </div>
         
       </div>
