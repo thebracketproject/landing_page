@@ -1,0 +1,18 @@
+.footer {
+  /* background-color: grey; */
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  color: #512A13;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  padding: 1em;
+  background-color: #F5EBE0;
+}
+
+.footer p {
+  opacity: 0.5;
+}

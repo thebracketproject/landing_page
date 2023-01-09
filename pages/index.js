@@ -20,10 +20,6 @@ export default function Home() {
             <p className={styles.descText}>Connect with like-minded university students and build exclusive friend groups with Bracket, the social platform designed for you! Discover new opportunities and create meaningful connections based on your individual interests and personality.</p>
           </div>
         </div>
-
-        <div className={styles.footer}>
-          <p>&copy; 2023 The Bracket. All rights reserved.</p>
-        </div>
         
       </div>
     </div>

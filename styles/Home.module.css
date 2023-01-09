@@ -19,6 +19,22 @@
   background-color: #F5EBE0;
 }
 
+.bracketTitle {
+  color: #8F5B3C;
+  font-weight: 700;
+  letter-spacing: -5%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  letter-spacing:  -0.05em;
+}
+
+.bracketThe {
+  color: #512A13;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
 .jumbotron {
   height: calc(100vh + 5em);
   background-image: url('/assets/jumbotron.jpg');
@@ -110,6 +126,7 @@
 .footer {
   /* background-color: grey; */
   height: 20vh;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -119,7 +136,10 @@
   font-weight: 600;
   opacity: 0.5;
   padding: 1em;
+  background-color: #F5EBE0;
 }
+
+
 /* END OF CUSTOME STYLES */
 
 .description {
