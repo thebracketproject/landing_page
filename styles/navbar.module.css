@@ -51,3 +51,15 @@
   padding: 10px 20px;
   opacity: 2;
 }
+
+@media (max-width: 40em) {
+  .bracketThe {
+    font-size: 12px;
+  }
+
+  .bracketTitle {
+    font-size: 24px;
+  }
+
+  
+}
