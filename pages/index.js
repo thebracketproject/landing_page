@@ -15,7 +15,7 @@ export default function Home() {
 
         <div className={[styles.mainBody, styles.container].join(" ")}>
           <div className={styles.contentHeader}>
-            <p><span className={styles.bracketThe}>The </span><span className={styles.bracketTitle}>Bracket &nbsp;</span><span className={styles.bracketSubtext}> for universities</span></p>
+            <p><span className={styles.bracketThe}>The </span><span className={styles.bracketTitle}>Bracket </span><span className={styles.bracketSubtext}> ?</span></p>
             <p className={styles.jungeText}>Everything a student needs to unlock their potential</p>
             <p className={styles.descText}>Connect with like-minded university students and build exclusive friend groups with Bracket, the social platform designed for you! Discover new opportunities and create meaningful connections based on your individual interests and personality.</p>
           </div>
