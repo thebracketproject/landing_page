@@ -53,12 +53,18 @@
 }
 
 @media (max-width: 40em) {
+
   .bracketThe {
     font-size: 12px;
   }
 
   .bracketTitle {
     font-size: 24px;
+  }
+
+  .navButton {
+    font-size: 14px;
+    padding: 8px 15px;
   }
 
   
