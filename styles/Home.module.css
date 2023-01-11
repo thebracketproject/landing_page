@@ -146,6 +146,7 @@
   .slantedSquare {
     transform: rotate(0deg);
     max-height: 50vh;
+    opacity: 0.8;
   }
 
   .slantedSquare p {
